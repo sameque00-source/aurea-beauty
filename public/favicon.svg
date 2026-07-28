@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: brand near-black with rounded corners -->
+  <rect width="512" height="512" rx="96" fill="#1A1A1A"/>
+  <!-- Subtle radial glow -->
+  <circle cx="256" cy="220" r="200" fill="url(#glow)" opacity="0.35"/>
+  <!-- Brand "A" in Playfair-style — geometric serif letterform -->
+  <path d="M256 108 L168 380 L196 380 L222 310 L290 310 L316 380 L344 380 Z M256 148 L283 290 L229 290 Z" fill="url(#gold)"/>
+  <!-- Decorative crossbar accent -->
+  <rect x="210" y="255" width="92" height="4" rx="2" fill="url(#gold)" opacity="0.6"/>
+  <!-- TM superscript mark -->
+  <text x="338" y="145" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#C8956C" opacity="0.9">™</text>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#C8956C"/>
+      <stop offset="100%" stop-color="#1A1A1A"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="168" y1="108" x2="344" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4A853"/>
+      <stop offset="50%" stop-color="#C8956C"/>
+      <stop offset="100%" stop-color="#B87A5A"/>
+    </linearGradient>
+  </defs>
+</svg>
